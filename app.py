@@ -9,7 +9,7 @@ import json
 load_dotenv()
 
 # Configure Gemini API
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=os.getenv("AIzaSyA2VaLo4Q1hNt7u7TWmqMiOx8l3es8iKBg"))
 
 # Function to generate Gemini response
 def get_gemini_response(prompt):
